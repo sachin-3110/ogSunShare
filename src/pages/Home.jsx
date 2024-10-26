@@ -56,9 +56,9 @@ const Home = () => {
                             <br />
                             <strong>Expected ROI:</strong> {project.roi}
                         </p>
-                        <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
+                        <Link to='/trading' className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
                             Invest Now
-                        </button>
+                        </Link>
                     </div>
                 ))}
             </div>

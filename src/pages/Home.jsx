@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import HomeElement from './HomeElement'
 import HomeElement2 from './HomeElement2';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     const [projects, setProjects] = useState([

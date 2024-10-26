@@ -1,0 +1,78 @@
+solar-energy-investment-platform/
+│
+├── public/                   # Static files
+│   ├── index.html            # Main HTML file
+│   ├── favicon.ico           # Favicon
+│   └── assets/               # Images, fonts, etc.
+│
+├── src/                      # Source files
+│   ├── components/           # Reusable components
+│   │   ├── Auth/             # Authentication components
+│   │   │   ├── Login.js
+│   │   │   ├── Signup.js
+│   │   │   └── ForgotPassword.js
+│   │   │
+│   │   ├── Dashboard/        # User dashboard components
+│   │   │   ├── Dashboard.js
+│   │   │   ├── InvestmentSummary.js
+│   │   │   └── EnvironmentalImpact.js
+│   │   │
+│   │   ├── Projects/         # Project-related components
+│   │   │   ├── ProjectList.js
+│   │   │   ├── ProjectDetails.js
+│   │   │   └── InvestmentForm.js
+│   │   │
+│   │   ├── Admin/            # Admin dashboard components
+│   │   │   ├── AdminDashboard.js
+│   │   │   ├── ProjectManagement.js
+│   │   │   └── UserManagement.js
+│   │   │
+│   │   ├── Common/           # Common components
+│   │   │   ├── Navbar.js
+│   │   │   ├── Footer.js
+│   │   │   └── Modal.js
+│   │   │
+│   │   └── Charts/           # Chart components
+│   │       ├── InvestmentChart.js
+│   │       └── EnergyProductionChart.js
+│   │
+│   ├── pages/                # Page components
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   └── Contact.js
+│   │
+│   ├── hooks/                # Custom hooks
+│   │   └── useAuth.js
+│   │
+│   ├── context/              # Context API for state management
+│   │   └── AuthContext.js
+│   │
+│   ├── services/             # API service calls
+│   │   ├── authService.js
+│   │   ├── projectService.js
+│   │   └── investmentService.js
+│   │
+│   ├── redux/                # Redux-related files
+│   │   ├── store.js
+│   │   ├── actions/
+│   │   │   ├── authActions.js
+│   │   │   ├── projectActions.js
+│   │   │   └── investmentActions.js
+│   │   │
+│   │   └── reducers/
+│   │       ├── authReducer.js
+│   │       ├── projectReducer.js
+│   │       └── investmentReducer.js
+│   │
+│   ├── styles/               # Stylesheets
+│   │   ├── App.css
+│   │   └── variables.css
+│   │
+│   ├── utils/                # Utility functions
+│   │   └── helpers.js
+│   │
+│   └── App.js                # Main app component
+│
+├── .env                       # Environment variables
+├── package.json               # Project metadata and dependencies
+└── README.md                  # Documentation
